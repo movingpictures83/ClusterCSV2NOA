@@ -1,0 +1,2 @@
+Prefix plugins/ClusterCSV2NOA/example/
+Plugin ClusterCSV2NOA inputfile corrP.clusters.csv outputfile corrP.clusters.noa
