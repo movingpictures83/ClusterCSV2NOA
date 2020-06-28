@@ -23,12 +23,12 @@ class ClusterCSV2NOAPlugin:
 
       i = 1
       for cluster in self.clusters:
-         if (len(cluster) == 1):   # A singleton should count as cluster 0 for coloring
-            noafile.write(cluster[0]+"\t"+str(0)+"\n")
-         else:
+         if (len(cluster) > 1):   # Don't count singletons
+         #noafile.write(cluster[0]+"\t"+str(0)+"\n")
+         #else:
             for node in cluster:
                noafile.write(node+"\t"+str(i)+"\n")
-         i += 1
+            i += 1
 
 
 
