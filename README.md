@@ -2,7 +2,7 @@
 # Language: Python
 # Input: CSV (clusters)
 # Output: NOA (nodes and cluster ID)
-# Tested with: PluMA 1.0, Python 2.7
+# Tested with: PluMA 1.1, Python 3.6
 
 PluMA plugin that converts a file of nodes and clusters in CSV format into
 a NOde Attribute (NOA) file for Cytoscape (Shannon et al, 2003).
